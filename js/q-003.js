@@ -7,8 +7,8 @@
 (function() {
 
 	function isPrime( n ) {
-		for( i = 3; i <= Math.ceil( n / 2); i++) {
-			if( n % i == 0 ) {
+		for( i = 3; i <= Math.ceil( n / 2); i+=2) {
+			if( n % i === 0 ) {
 				return false;
 			}
 		}
