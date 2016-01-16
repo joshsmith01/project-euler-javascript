@@ -23,7 +23,7 @@
 				a.push( b );
 			}
 			return a;
-		};
+		}
 		// This function returns T/F depending on whether the number is in fact divisible by each of the elements of an
 		// array.
 		function isDivisible( a ) {
@@ -37,7 +37,8 @@
 				return true;
 			}
 		}
-		// The isDivisible function will continue to be called until all numbers can divide j evenly. Notice that I iterate by 2520 also.
+		// The isDivisible function will continue to be called until all numbers can divide j evenly. Notice that I
+		// iterate by 2520 also.
 		while( isDivisible(j) == false) {
 			j+=2520;
 		}
