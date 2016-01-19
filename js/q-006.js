@@ -30,7 +30,7 @@
 		}
 
 	};
-		console.log( squareDiff( 1 );
+		console.log( squareDiff( 1 ));
 	}
 
 
