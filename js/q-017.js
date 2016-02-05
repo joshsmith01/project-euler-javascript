@@ -82,7 +82,7 @@
 			}
 			return sum;
 		}
-
+// Add some comments
 
 		function isTeen( arr ) {
 				switch ( arr ) {
